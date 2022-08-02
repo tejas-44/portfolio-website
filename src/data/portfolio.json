@@ -1,0 +1,28 @@
+{
+    "portfolio": [
+        {
+            "cover": "/portfolio/cover.png",
+            "title": "Exercise Tracker AI",
+            "description": "Python, TensorFlow, Mediapipe, Flutter",
+            "url": "https://github.com/tejas-44/ExerciseTrackerAI"
+        },
+        {
+            "cover": "/portfolio/cover.png",
+            "title": "Final Year PMS",
+            "description": "Html, CSS, JS, Firebase",
+            "url": "https://github.com/tejas-44/sdg-fypm-final"
+        },
+        {
+            "cover": "/portfolio/cover.png",
+            "title": "Community Aid",
+            "description": "Flutter, Firebase",
+            "url": "https://github.com/tejas-44/community-aid"
+        },
+        {
+            "cover": "/portfolio/cover.png",
+            "title": "Whats the Weather",
+            "description": "Flutter, Firebase",
+            "url": "https://github.com/tejas-44/whats-the-weather"
+        }
+    ]
+}

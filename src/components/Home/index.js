@@ -62,7 +62,7 @@ const Home = () => {
                             idx={15} />
                     </h1>
                     <h2>
-                        Flutter Developer/ AWS Cloud Practitioner
+                        Product Design / Full Stack Developer / AWS Cloud Practitioner
                     </h2>
                     <Link to="/contact" className="flat-button">CONTACT ME</Link>
                 </div>

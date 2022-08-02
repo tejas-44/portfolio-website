@@ -89,6 +89,12 @@
             }
         }
 
+        a.portfolio-link {
+            &:after {
+                content: "Portfolio";
+            }
+        }
+
         a.active {
             svg {
                 color: #F5487F;

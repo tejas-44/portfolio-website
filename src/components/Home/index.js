@@ -45,7 +45,7 @@ const Home = () => {
         <>
             <div className="container home-page">
                 <div className="text-zone">
-                    <h1>
+                    <h1 className="hero-text">
                         {/* Hi,  I'm <br /> */}
                         <AnimatedLetters letterClass={letterClass}
                             strArray={nameArray}
@@ -54,15 +54,18 @@ const Home = () => {
                         <img
                             src={LogoTitle}
                             alt="TEJAS HERE"
+                            className="name-logo"
                         />
                         <br />
                         {/* Software Developer */}
                         <AnimatedLetters letterClass={letterClass}
                             strArray={jobArray}
-                            idx={15} />
+                            idx={15}
+                            className="job-array"
+                        />
                     </h1>
                     <h2>
-                        Product Design / Full Stack Developer / AWS Cloud Practitioner
+                        Frontend Engineer / Java Spring Developer  / AWS Cloud Practitioner
                     </h2>
                     <Link to="/contact" className="flat-button">CONTACT ME</Link>
                 </div>

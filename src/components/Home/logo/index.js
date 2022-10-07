@@ -6,7 +6,7 @@ import homu from '../../../assets/images/home.gif';
 
 const Logo = () => {
     return (
-        <img src={homu} alt="NOICE" />
+        <img src={homu} alt="NOICE" class="logo-home" />
 
     );
 }

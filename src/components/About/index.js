@@ -35,25 +35,21 @@ const About = () => {
 
 
                     <p>
-                        I'm very ambitious Flutter and Web Developer looking for a role in
+                        I'm very ambitious Web Developer looking for a role in
                         established IT company with the opportunity to work with the latest
                         technologies on challenging and diverse projects.
                     </p>
                     <p>
-                        I have completed my AWS Cloud Practitioner course and looking forward to work on it as a full time employee or intern
-                        to improve my practical skills with Cloud Computing.
+                        I make Web Applications with MERN stack and can also make Web Applications using Spring Framework. I have experience in NoSql Databases.
+                        The other languages/ frameworks which I am comfortable working with are Hibernate, Flutter, Python, HTML5, CSS, JavaScript, TypeScript and AngularJS.
                     </p>
+
                     <p>
-                        Currently I am learning React JS and UI/UX Design along with exploring some blockchain technologies such as Ethereum and Solidity.
-                    </p>
-                    <p>
-                        If I need to define myself in one sentence that would be a honest,
-                        fast paced self learner, avid helper to the community and extremely punctual
-                        with time !!!
+                        If I had to introduce myself in one line that would be "Throw me in any waters I will learn how to swim."
                     </p>
                 </div>
 
-                <div className="stage-cube-cont">
+                <div className="stage-cube-cont" >
                     <div className="cubespinner">
                         <div className="face1">
                             <FontAwesomeIcon icon={faAngular} color="#DD0031" />

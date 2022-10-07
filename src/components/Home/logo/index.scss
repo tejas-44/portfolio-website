@@ -13,3 +13,9 @@ img {
     margin-left: 50%;
     margin-top: 80px;
 }
+
+@media screen and (max-width:1200px) {
+    .logo-home {
+        display: none;
+    }
+}

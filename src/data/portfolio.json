@@ -23,6 +23,12 @@
             "title": "Whats the Weather",
             "description": "Flutter, Firebase",
             "url": "https://github.com/tejas-44/whats-the-weather"
+        },
+        {
+            "cover": "/portfolio/cover.png",
+            "title": "Spring MVC",
+            "description": "Java Spring",
+            "url": "https://github.com/tejas-44/spring-mvc"
         }
     ]
 }

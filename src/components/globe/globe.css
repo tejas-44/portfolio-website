@@ -6,7 +6,11 @@
 
 }
 
-
+@media screen and (max-width:1400px) {
+    #hero-logo {
+        display: none;
+    }
+}
 #pot, #man, #rcomp, #lcomp, #table{
     transition: all 1s ease ;
 }

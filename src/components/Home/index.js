@@ -2,10 +2,11 @@ import Loader from "react-loaders";
 import { Link } from "react-router-dom";
 import LogoTitle from "../../assets/images/homename.png";
 import "./index.scss";
-import Logo from "./logo";
+// import Logo from "./logo";
 import { useEffect, useState } from 'react'
 import AnimatedLetters from "../AnimatedLetters";
 import Globe from "../globe/globe";
+import Typed from 'react-typed';
 
 
 
@@ -14,21 +15,7 @@ const Home = () => {
 
     const nameArray = ['H', 'i', ',', ' ', 'I', ' ', 'a', 'm']
     const jobArray = [
-        'S',
-        'o',
-        'f',
-        't', 'w', 'a', 'r', 'e',
-        ' ',
-        'D',
-        'e',
-        'v',
-        'e',
-        'l',
-        'o',
-        'p',
-        'e',
-        'r',
-        '.',
+        'S','o','f','t', 'w', 'a', 'r', 'e',' ','D','e','v','e','l','o','p','e','r','.',
     ]
 
     useEffect(() => {
@@ -59,15 +46,25 @@ const Home = () => {
                         />
                         <br />
                         {/* Software Developer */}
-                        <AnimatedLetters letterClass={letterClass}
+                        <div className="job-array"><AnimatedLetters letterClass={letterClass}
                             strArray={jobArray}
                             idx={15}
-                            className="job-array"
-                        />
+                            
+                        /></div>
+                        
                     </h1>
-                    <h2>
-                        Frontend Engineer / Java Spring Developer  / AWS Cloud Practitioner
+                    <div className="iam">
+                    <h2 id = 'ican'>
+                        I can help develop
                     </h2>
+                    <Typed
+                    className="type"
+                    strings={['Mobile Applications', 'Dynamic Websites']   }
+                    typeSpeed={80}
+                    backSpeed={60}
+                    loop
+                    />
+                    </div>
                     <Link to="/contact" className="flat-button">CONTACT ME</Link>
                 </div>
                 {/* <Logo /> */}

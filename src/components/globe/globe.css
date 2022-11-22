@@ -1,0 +1,21 @@
+#hero-logo{
+    position: relative;
+    margin-top: 180px;
+    margin-left: 800px;
+    
+
+}
+
+
+#pot, #man, #rcomp, #lcomp, #table{
+    transition: all 1s ease ;
+}
+
+svg:hover #pot{
+    transform: translateX(10%);
+}
+
+svg:hover #man{
+    transform: translateX(-15%);
+}
+

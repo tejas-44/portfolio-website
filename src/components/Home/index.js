@@ -5,6 +5,7 @@ import "./index.scss";
 import Logo from "./logo";
 import { useEffect, useState } from 'react'
 import AnimatedLetters from "../AnimatedLetters";
+import Globe from "../globe/globe";
 
 
 
@@ -69,7 +70,8 @@ const Home = () => {
                     </h2>
                     <Link to="/contact" className="flat-button">CONTACT ME</Link>
                 </div>
-                <Logo />
+                {/* <Logo /> */}
+                <Globe/>
 
 
             </div >

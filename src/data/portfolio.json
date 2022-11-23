@@ -1,7 +1,7 @@
 {
     "portfolio": [
         {
-            "cover": "/portfolio/cover.png",
+            "cover": "https://static.vecteezy.com/packs/media/vectors/term-bg-1-666de2d9.jpg",
             "title": "Exercise Tracker AI",
             "description": "Python, TensorFlow, Mediapipe, Flutter",
             "url": "https://github.com/tejas-44/ExerciseTrackerAI"

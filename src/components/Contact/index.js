@@ -27,7 +27,7 @@ const Contact = () => {
     const sendEmail = (e) => {
         e.preventDefault();
 
-        emailjs.sendForm('service_igt5wx7', 'template_lj18vj6', form.current, 'wIHkSdqqEwbrt0gZe')
+        emailjs.sendForm('service_2n1en6q', 'template_ay2fabj', form.current, 'Yop1qy1pLTg6iAjGH')
             .then(
                 () => {
                     alert('Message successfully sent! Sit Back and Chillax until I get to you')
@@ -97,7 +97,7 @@ const Contact = () => {
                     <br />
                     Uran-Mora Road - 400702 <br />
                     Uran <br />
-                    <span>tej.con84work@gmail.com</span>
+                    <span>t3j.sh3@gmail.com</span>
 
 
                 </div>

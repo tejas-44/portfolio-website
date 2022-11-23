@@ -115,10 +115,12 @@
 @media screen and (max-width:500px) {
     .portfolio-page .images-container {
         display: block !important;
+        
 
     }
 
     .portfolio-page .image-box {
+        height: 400px !important;
         margin-top: 20px;
         margin-left: 5%;
         max-width: 90% !important;
